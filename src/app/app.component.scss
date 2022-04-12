@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Serif;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 1rem;
+}
+
+.book {
+  display: flex;
+  background: #f2f2f2;
+  box-shadow: 1px 1px 4px rgba(#333, .4);
+  margin: 2rem;
+
+  .image {
+    height: 400px;
+  }
+
+  .content {
+    padding: 1rem;
+  }
+}
